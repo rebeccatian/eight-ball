@@ -17,7 +17,7 @@ body {
     margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 5px darkcyan;
+    box-shadow: 5px 5px rgb(0, 78, 0);
     background-color: whitesmoke;
     color: darkslategray
    
@@ -77,6 +77,8 @@ input {
     display: none;
     animation: opacityOn 3s;
     margin-top: -1px; 
+    font-style:italic;
+    text-shadow: rgb(0, 78, 0) 5px 5px ;
 }
 
 
@@ -87,13 +89,12 @@ button {
   border-radius: 0px;
   margin: 10px;
   border-radius: 5px;
-  background-color: darkcyan;
   text-align: center;
   font-family: Helvetica;
   font-size: 15px;
-  box-shadow: 5px 5px darkcyan;
-  background-color: whitesmoke;
-  color: darkslategray;
+  box-shadow: 5px 5px whitesmoke;
+  background-color:rebeccapurple;
+  color: white;
   transition-property: box-shadow;
   transition-duration: 1s;
   
